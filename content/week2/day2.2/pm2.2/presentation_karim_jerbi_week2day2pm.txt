@@ -1,0 +1,21 @@
+MEG = direct measurment ==> electrophysiological responses (unlike fMRI)
+
+Hans Berger = first non-invasive
+
+today = up to 256 (maybe more) electrodes
+
+rejecting some artifacts like heartbeat eye mvt (saccades etc) skin potentials is easy
+
+induced potential : time-frequency map (no negative values), slight jitter cuz not phase-locked to button pressing (i.e)
+evoked potential : evoked by action/stimulation
+
+source reconst: direct = sources 2 distrib (sphere/realistic models)
+		inverse = distrib 2 source (dipole localization (dipole-fit), distributed sources) 
+				- estimating amplitude and orientation of sources (dipoles)
+
+connectivit analyses: time and frequency and directional measures (ie Granger causalitu, partial directed coherence etc) domain correlation
+compute all of these for each frequency band to find correlations and cool stuff
+
+use python tools now, matlab era is over
+
+human connectome datasets (95 cool MEG datasets)
